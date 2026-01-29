@@ -1,0 +1,27 @@
+<svg width="140" height="36" viewBox="0 0 140 36" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="logoGradientReverse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Professional Icon - Modern Monogram -->
+  <g transform="translate(0, 2)">
+    <!-- Background shape -->
+    <rect x="0" y="0" width="28" height="28" rx="6" fill="url(#logoGradient)" opacity="0.15"/>
+    <!-- Border -->
+    <rect x="0" y="0" width="28" height="28" rx="6" fill="none" stroke="url(#logoGradient)" stroke-width="1.5"/>
+    <!-- Letter A -->
+    <path d="M8 22 L14 8 L20 22 M11 17 L17 17" stroke="url(#logoGradient)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Tech accent - subtle corner elements -->
+    <circle cx="4" cy="4" r="1.5" fill="url(#logoGradient)" opacity="0.6"/>
+    <circle cx="24" cy="24" r="1.5" fill="url(#logoGradient)" opacity="0.6"/>
+  </g>
+  <!-- Text -->
+  <text x="36" y="22" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" letter-spacing="-0.5" fill="url(#logoGradient)">Ali</text>
+  <text x="58" y="22" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="400" letter-spacing="-0.3" fill="#cbd5e1">.site</text>
+</svg>
